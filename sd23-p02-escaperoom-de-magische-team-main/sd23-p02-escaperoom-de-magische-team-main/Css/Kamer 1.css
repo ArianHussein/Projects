@@ -1,0 +1,80 @@
+/* Kamre 1 */
+.body-room-1 {
+  background-image: url(/Img/kamer\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* for buttons without color (invisbale) use this class */
+.invisbale-button-kamer {
+  opacity: 0.1;
+}
+
+.key {
+  width: 10vh;
+  height: 10vw;
+  position: absolute;
+  left: 26vw;
+  top: 60vh;
+
+}
+.invisbale-button-kamer{
+  width: 10vh;
+  height: 10vw;
+  position: absolute;
+  left: 26vw;
+  top: 60vh;
+  opacity: 0;
+
+}
+
+/* for normaal buttons use this class */
+
+.btn-room {
+  background-color: rgb(77, 76, 80);
+  padding: 2px;
+  border-radius: 15px;
+  width: 300px;
+  height: 70px;
+  border: none;
+}
+
+/* voor balkje gebruik deze class */
+
+.room-beam {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 60%;
+  background-color: rgb(77, 76, 80);
+  border-radius: 20px;
+}
+.massage{
+  position: absolute;
+  top: 90vh;
+  width: 50vw;
+  left: 25vw;
+  right: 25vw;
+  height: 5vh;
+  opacity: 0.7;
+  border-radius: 25px;
+  background-color: rgb(77, 76, 80);
+  text-align: center;
+  padding-top: 17px;
+  font-size: 25px;
+  color: white
+}
+a button{
+  opacity: 0;
+  width: 12vw;
+  height: 35vh;
+  position: absolute;
+  top: 30vh;
+  left: 65vw;
+}
+
+.display{
+  display: none;
+}

@@ -1,0 +1,108 @@
+/* Kamer*/
+body {
+  background-image: url(/Img/kamer\ 3.jpg);
+  height: 100vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+p {
+  font-size: 20px;
+}
+.room {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.invisbale-button1 {
+  opacity: 0;
+  width: 140px;
+  height: 230px;
+  position: absolute;
+  left: 52vw;
+  top: 50vh;
+}
+.next-room {
+  opacity: 0;
+  width: 15vw;
+  height: 52vh;
+  position: absolute;
+  left: 73vw;
+  top: 33vh;
+}
+.btn-room-1 {
+  background-color: rgb(77, 76, 80);
+  padding: 2px;
+  border-radius: 15px;
+  width: 300px;
+  height: 70px;
+  border: none;
+  position: absolute;
+  left: 25vw;
+  top: 80vh;
+  opacity: 0.7;
+}
+.btn-room-2 {
+  background-color: rgb(77, 76, 80);
+  padding: 2px;
+  border-radius: 15px;
+  width: 300px;
+  height: 70px;
+  border: none;
+  position: absolute;
+  right: 25vw;
+  top: 80vh;
+  opacity: 0.7;
+}
+
+.room-beam-1 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  height: 100%;
+  background-color: rgb(77, 76, 80);
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.room-beam-1 .mirror-text {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 250px;
+}
+.container {
+  height: 70vh;
+  width: 100vw;
+}
+.hide {
+  display: none;
+}
+.open-room {
+  display: none;
+}
+.how-to-play {
+  position: absolute;
+  top: 92vh;
+  width: 50vw;
+  left: 25vw;
+  right: 25vw;
+  height: 5vh;
+  opacity: 0.7;
+  border-radius: 25px;
+  background-color: rgb(77, 76, 80);
+  text-align: center;
+  padding-top: 17px;
+  font-size: 25px;
+}
+
+.container{
+  animation: container 1s;
+}
+@keyframes container{
+  0%{opacity: 0;}
+  100%{opacity: 0.7;}
+}

@@ -1,0 +1,116 @@
+/* for buttons without color (invisbale) use this class */
+
+
+.invisbale-button {
+  opacity: 0;
+  width: 25vw;
+  font-weight: bold;
+  position: absolute;
+  top: 85vh;
+  left: 2vh;
+  height: 18vh;
+}
+/* for normaal buttons use this class */
+
+.btn-room {
+  background-color: rgb(77, 76, 80);
+  padding: 2px;
+  border-radius: 15px;
+  width: 300px;
+  height: 70px;
+  border: none;
+}
+/* voor balkje gebruik deze class */
+
+.room-beam {
+  opacity: 0.7;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 60%;
+  background-color: rgb(77, 76, 80);
+  border-radius: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* achtergrond image */
+
+.room {
+  background-image: url("/Img/kamer\ 4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.imageContainer{
+  display: none;
+}
+
+
+.appel {
+    width: 100px;
+    height: 100px;
+    background: url('/Img/Apple photo.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.resultaat {
+  position: absolute;
+  top: -40px; /* Plaats het boven de appels */
+  text-align: center;
+  background-color: rgb(54, 53, 53); 
+  padding: 5px;
+  border: 1px solid black;
+  display: none;
+  color: rgb(179, 183, 183);
+}
+
+
+
+
+/* Voeg deze stijlen toe voor de deur-knop */
+.deur-knop {
+  background-color: rgb(54, 53, 53);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: rgb(179, 183, 183);
+  position: absolute;
+  top: 25%; /* Pas de positie aan op basis van je afbeelding */
+  left: 49%; /* Pas de positie aan op basis van je afbeelding */
+  transform: translate(-50%, -50%); /* Plaats het in het midden van de afbeelding */
+  display: none;
+}
+
+
+.begin, h4{
+  color: white;
+  background-color:  rgb(54, 53, 53);
+  text-align: center;
+  border: 1px solid black;
+  width: 30%; /* Set the width of the background */
+   height: 30px; /* Set the height of the background */
+   padding: 10px; 
+   position: absolute; 
+   font-weight: 100; 
+   top: 87vh;
+   left: 70vh;
+   border-radius: 25px;
+
+  
+  }  
+
+
+
+
+
+
+
