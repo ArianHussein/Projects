@@ -1,0 +1,125 @@
+body {
+    background-image: url(../img/horizont.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 500px;
+}
+
+
+header {
+    text-align: center;
+}
+
+.start-game-button {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    left: 360px;
+    top: 250px;
+}
+
+.end-game-button {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: 410px;
+    left: 360px;
+    
+
+}
+
+.home-page-button {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 360px;
+    top: 330px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 517px;
+   
+
+}
+
+.tile {
+    display: inline;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+.container{
+    margin: auto;
+    width: 1450px;
+}
+
+
+
+.active {
+    background-image: url(../img/Mole.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.message-box{
+    display: none;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.user-info {
+    margin-top: 20px;
+    color: black;
+}
+
+.edit-name-button {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 360px;
+    top: 490px;
+    
+}
+
+.player-name {
+    font-weight: normal;
+    margin-left: 5px;
+    color: black;
+}
+
